@@ -38,7 +38,7 @@ public class FilterImpl extends CombinedVisitorAdapter implements AAIFilter {
     public void filterDocument(Document document) {
         Library.visitTree(document, this, TraverserDirection.down);
     }
-    
+
     /**
      * @see io.apicurio.datamodels.combined.visitors.CombinedVisitorAdapter#visitInfo(io.apicurio.datamodels.core.models.common.Info)
      */
@@ -48,7 +48,7 @@ public class FilterImpl extends CombinedVisitorAdapter implements AAIFilter {
         node.version = "1.0.42";
         node.description = "An API definition filtered by a filter implementation.";
     }
-    
+
     /**
      * @see io.apicurio.datamodels.combined.visitors.CombinedVisitorAdapter#visitServer(io.apicurio.datamodels.core.models.common.Server)
      */

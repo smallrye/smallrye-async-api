@@ -18,11 +18,13 @@ package io.smallrye.asyncapi.spec;
 
 /**
  * Configurable properties in MicroProfile AsyncAPI
+ * 
  * @author eric.wittmann@gmail.com
  */
 public final class AAIConfig {
 
-    private AAIConfig(){}
+    private AAIConfig() {
+    }
 
     public static final String MODEL_READER = "mp.asyncapi.model.reader";
     public static final String FILTER = "mp.asyncapi.filter";

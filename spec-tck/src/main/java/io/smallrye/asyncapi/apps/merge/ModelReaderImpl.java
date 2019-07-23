@@ -24,6 +24,7 @@ import io.smallrye.asyncapi.spec.AAIModelReader;
 
 /**
  * A model reader implementation used for TCK testing.
+ * 
  * @author eric.wittmann@gmail.com
  */
 public class ModelReaderImpl implements AAIModelReader {
@@ -39,7 +40,7 @@ public class ModelReaderImpl implements AAIModelReader {
         document.info.title = "Model Reader Merge API";
         document.info.version = "1.2.3";
         document.info.termsOfService = "https://www.example.org/tos";
-        
+
         document.info.contact = document.info.createContact();
         document.info.contact.name = "Sam Smith";
         document.info.contact.url = "https://www.example.com/users/ssmith";

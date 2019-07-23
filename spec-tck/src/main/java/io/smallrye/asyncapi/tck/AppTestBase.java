@@ -77,8 +77,7 @@ public abstract class AppTestBase extends Arquillian {
         ValidatableResponse vr;
         if ("JSON".equals(type)) {
             vr = given().accept(ContentType.JSON).when().get("/asyncapi").then().statusCode(200);
-        }
-        else {
+        } else {
             // It seems there is no standard for YAML
             vr = given().accept(ContentType.ANY).when().get("/asyncapi").then().statusCode(200);
         }

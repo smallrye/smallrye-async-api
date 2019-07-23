@@ -198,7 +198,7 @@ public class MergeUtil {
         if (values1 == null && values2 != null) {
             return values2;
         }
-        
+
         values2.forEach(value -> {
             if (value instanceof Node) {
                 ((Node) value)._ownerDocument = parent.ownerDocument();

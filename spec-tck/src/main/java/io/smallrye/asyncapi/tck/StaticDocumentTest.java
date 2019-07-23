@@ -16,9 +16,9 @@
 
 package io.smallrye.asyncapi.tck;
 
+import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.startsWith;
 
-import static org.hamcrest.Matchers.equalTo;
 import org.jboss.arquillian.container.test.api.Deployment;
 import org.jboss.arquillian.container.test.api.RunAsClient;
 import org.jboss.shrinkwrap.api.ShrinkWrap;
@@ -33,18 +33,18 @@ import io.restassured.response.ValidatableResponse;
  * endpoint returns the correct content for these static files.
  */
 public class StaticDocumentTest extends AppTestBase {
-    
+
     @Deployment(name = "static")
     public static WebArchive createDeployment() {
         return ShrinkWrap.create(WebArchive.class, "static.war")
                 .addAsManifestResource("simpleapi.json", "asyncapi.json");
     }
-    
+
     @RunAsClient
     @Test(dataProvider = "formatProvider")
     public void testStaticDocument(String type) {
         ValidatableResponse vr = callEndpoint(type);
-        
+
         vr.body("asyncapi", startsWith("2.0."));
 
         vr.body("info.description", equalTo("This is a very simple AsyncAPI file."));

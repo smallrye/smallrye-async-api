@@ -19,8 +19,8 @@ package io.smallrye.asyncapi.spec;
 import io.apicurio.datamodels.core.models.Document;
 
 /**
- * This interface allows application developers to programmatically contribute an AsyncAPI model tree.  
-
+ * This interface allows application developers to programmatically contribute an AsyncAPI model tree.
+ * 
  * @author eric.wittmann@gmail.com
  */
 public interface AAIModelReader {

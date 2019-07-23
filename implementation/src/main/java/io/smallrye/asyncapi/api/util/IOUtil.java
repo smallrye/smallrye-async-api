@@ -26,7 +26,8 @@ import java.nio.charset.Charset;
 public class IOUtil {
 
     /**
-     * Converts the given input stream to a string.  Assumes UTF8 as the encoding.
+     * Converts the given input stream to a string. Assumes UTF8 as the encoding.
+     * 
      * @param content
      */
     public static String toString(InputStream content) {
@@ -36,7 +37,7 @@ public class IOUtil {
         try {
             Charset charset = Charset.forName("UTF-8");
             StringBuilder builder = new StringBuilder();
-            byte [] buff = new byte[4096];
+            byte[] buff = new byte[4096];
             int size = content.read(buff);
             while (size != -1) {
                 String data = new String(buff, 0, size, charset);

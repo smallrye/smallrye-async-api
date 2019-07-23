@@ -51,7 +51,7 @@ public class FilterTest extends AppTestBase {
         vr.body("info.version", equalTo("1.0.42"));
         vr.body("info.description", equalTo("An API definition filtered by a filter implementation."));
     }
-    
+
     @RunAsClient
     @Test(dataProvider = "formatProvider")
     public void testServers(String type) {

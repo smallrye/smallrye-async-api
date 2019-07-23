@@ -53,8 +53,8 @@ public class AsyncApiProcessor {
     }
 
     /**
-     * Create an {@link Document} model by scanning the deployment for relevant annotations. If scanning is 
-     * disabled, this method returns null. If scanning is enabled but no relevant annotations are found, an 
+     * Create an {@link Document} model by scanning the deployment for relevant annotations. If scanning is
+     * disabled, this method returns null. If scanning is enabled but no relevant annotations are found, an
      * empty AsyncAPI model is returned.
      * 
      * @param config AsyncApiConfig

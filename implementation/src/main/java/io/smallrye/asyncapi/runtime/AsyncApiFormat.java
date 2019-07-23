@@ -20,7 +20,7 @@ package io.smallrye.asyncapi.runtime;
  * @author eric.wittmann@gmail.com
  */
 public enum AsyncApiFormat {
-    
+
     JSON("application/json"),
     YAML("application/yaml");
 

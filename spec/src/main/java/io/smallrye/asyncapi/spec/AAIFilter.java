@@ -19,18 +19,19 @@ package io.smallrye.asyncapi.spec;
 import io.apicurio.datamodels.core.models.Document;
 
 /**
- * This interface allows the application developer to filter the AsyncAPI model tree.  It is invoked
+ * This interface allows the application developer to filter the AsyncAPI model tree. It is invoked
  * after all document generation phases are complete (model reader, static file, annotation scanning)
- * and is typically used to suppress parts of the document that should not be included.  Usually this
+ * and is typically used to suppress parts of the document that should not be included. Usually this
  * is either a result of security concerns or anachronistic annotation scanning.
  * 
  * @author eric.wittmann@gmail.com
  */
 public interface AAIFilter {
-    
+
     /**
-     * Allows filtering of the entire document.  This will be called after all other phases are complete and
+     * Allows filtering of the entire document. This will be called after all other phases are complete and
      * combined (model reader, static file, annotation scanning).
+     * 
      * @param document
      */
     public void filterDocument(Document document);

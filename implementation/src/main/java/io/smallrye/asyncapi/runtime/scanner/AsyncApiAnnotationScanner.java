@@ -23,7 +23,7 @@ import io.apicurio.datamodels.core.models.Document;
 import io.smallrye.asyncapi.api.AsyncApiConfig;
 
 /**
- * Scans a deployment (using the archive and jandex annotation index) for relevant annotations. These 
+ * Scans a deployment (using the archive and jandex annotation index) for relevant annotations. These
  * annotations, if found, are used to generate a valid AsyncAPI model.
  * 
  * @author eric.wittmann@gmail.com
