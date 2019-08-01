@@ -1,0 +1,12 @@
+{
+  "asyncapi": "2.0.0",
+  "info": {
+    "title": "AsyncAPI 2.0 App",
+    "description": "This is a very simple AsyncAPI file.",
+    "version": "1.0.1",
+    "license": {
+      "name": "GNU AGPLv3",
+      "url": "https://www.gnu.org/licenses/agpl.txt"
+    }
+  }
+}
