@@ -15,8 +15,8 @@ mvn clean install
 
 === Project structure
 
-* link:spec[] - Specification classes and interfaces.
-* link:spec-tck[] - Specification TCK tests.
+* link:spec/api[] - Specification classes and interfaces.
+* link:spec/tck[] - Specification TCK tests.
 * link:implementation[] - Implementation of the specification.
 * link:tck[] - Test suite to run the spec TCK against the implementation.
 
