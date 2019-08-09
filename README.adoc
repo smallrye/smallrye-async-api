@@ -1,4 +1,6 @@
-image:https://img.shields.io/github/license/thorntail/thorntail.svg["License", link="http://www.apache.org/licenses/LICENSE-2.0"]
+image:https://semaphoreci.com/api/v1/smallrye/smallrye-async-api/branches/master/badge.svg["Semaphore CI", link="https://semaphoreci.com/smallrye/smallrye-async-api"]
+image:https://sonarcloud.io/api/project_badges/measure?project=smallrye_smallrye-async-api&metric=alert_status["Quality Gate Status", link="https://sonarcloud.io/dashboard?id=smallrye_smallrye-async-api"]
+image:https://img.shields.io/github/license/smallrye/smallrye-async-api.svg["License", link="http://www.apache.org/licenses/LICENSE-2.0"]
 
 = SmallRye AsyncAPI
 
