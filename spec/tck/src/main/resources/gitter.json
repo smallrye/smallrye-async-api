@@ -206,11 +206,11 @@
                 "summary": "A message represents an individual chat message sent to a room. They are a sub-resource of a room."
             }
         }
-    }, 
+    },
     "asyncapi": "2.0.0",
     "id": "urn:com:gitter:streaming:api", 
-    "servers": [
-        {
+    "servers": {
+        "prod": {
             "url": "https://stream.gitter.im/v1", 
             "security": [
                 {
@@ -220,5 +220,5 @@
             "protocol": "https", 
             "protocolVersion": "1.1"
         }
-    ]
+    }
 }

@@ -16,7 +16,6 @@
 
 package io.smallrye.asyncapi.api.util;
 
-import java.util.ArrayList;
 import java.util.Set;
 
 import io.apicurio.datamodels.asyncapi.models.AaiDocument;
@@ -41,9 +40,13 @@ public class ServersUtil {
         // Start with the global servers.
         Set<String> servers = config.servers();
         if (servers != null && !servers.isEmpty()) {
-            aaiDoc.servers = new ArrayList<>();
+            int counter = 1;
             for (String server : servers) {
-                aaiDoc.addServer(aaiDoc.createServer(server, null));
+                // Note: in AsyncAPI it's a map of servers, so each server now needs a name.  We should
+                // consider changing the config parameter to support named servers.  For now, we'll invent
+                // a name for each.
+                String serverName = "server-" + counter++;
+                aaiDoc.addServer(serverName, aaiDoc.createServer(serverName, server, null));
             }
         }
     }

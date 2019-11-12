@@ -56,7 +56,7 @@ public class FilterTest extends AppTestBase {
     @Test(dataProvider = "formatProvider")
     public void testServers(String type) {
         ValidatableResponse vr = callEndpoint(type);
-        vr.body("servers[0].url", equalTo("https://stream.gitter.im/v1-filtered"));
-        vr.body("servers[0].protocol", equalTo("https"));
+        vr.body("servers.prod.url", equalTo("https://stream.gitter.im/v1-filtered"));
+        vr.body("servers.prod.protocol", equalTo("https"));
     }
 }
