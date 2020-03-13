@@ -36,7 +36,7 @@
         <version.org.jboss.resteasy.core-spi>4.4.2.Final</version.org.jboss.resteasy.core-spi>
         
         <!-- Apicurio Data Models -->
-        <version.apicurio-data-models>1.1.0</version.apicurio-data-models>
+        <version.apicurio-data-models>1.1.2</version.apicurio-data-models>
 
         <sonar.coverage.jacoco.xmlReportPaths>${project.basedir}/tck/target/site/jacoco-aggregate/jacoco.xml,${project.basedir}/../tck/target/site/jacoco-aggregate/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
     </properties>
