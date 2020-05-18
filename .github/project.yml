@@ -1,0 +1,6 @@
+name: SmallRye Async API
+# This is not ready to release yet, unless the the Release Plugin and GPG Plugin are configured properly.
+# The Parent POM (>18) requires a fix for the Release, or the plugins need to be configured directly.
+release:
+  current-version: 1.0.0-SNAPSHOT
+  next-version: 1.0.0-SNAPSHOT
