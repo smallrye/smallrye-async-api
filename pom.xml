@@ -26,7 +26,7 @@
         <version.com.fasterxml.jackson.dataformat>2.10.2</version.com.fasterxml.jackson.dataformat>
         <version.commons-beanutils>1.9.4</version.commons-beanutils>
         <version.commons-logging>1.2</version.commons-logging>
-        <version.eclipse.microprofile.config>1.3</version.eclipse.microprofile.config>
+        <version.eclipse.microprofile.config>1.4</version.eclipse.microprofile.config>
         <version.io.smallrye.smallrye-config>1.5.1</version.io.smallrye.smallrye-config>
         <version.jakarta.validation>2.0.1</version.jakarta.validation>
         <version.org.hamcrest>1.3</version.org.hamcrest>
@@ -180,24 +180,6 @@
     <build>
         <pluginManagement>
             <plugins>
-                <plugin>
-                    <groupId>org.asciidoctor</groupId>
-                    <artifactId>asciidoctor-maven-plugin</artifactId>
-                    <configuration>
-                        <sourceHighlighter>coderay</sourceHighlighter>
-                        <attributes>
-                            <icons>font</icons>
-                            <pagenums />
-                            <version>${project.version}</version>
-                            <idprefix />
-                            <idseparator>-</idseparator>
-                            <allow-uri-read>true</allow-uri-read>
-                            <revnumber>${project.version}</revnumber>
-                            <revdate>${maven.build.timestamp}</revdate>
-                            <organization>${project.organization.name}</organization>
-                        </attributes>
-                    </configuration>
-                </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-jar-plugin</artifactId>
