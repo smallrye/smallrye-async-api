@@ -13,7 +13,7 @@
 
     <properties>
         <arquillian.version>1.6.0.Final</arquillian.version>
-        <restclient.version>1.3.4</restclient.version>
+        <restclient.version>1.4.1</restclient.version>
         <rest-assured.version>4.2.0</rest-assured.version>
         <servlet.version>4.0.3</servlet.version>
         <httpclient.version>4.5.12</httpclient.version>
