@@ -1,5 +1,8 @@
-image:https://semaphoreci.com/api/v1/smallrye/smallrye-async-api/branches/master/badge.svg["Semaphore CI", link="https://semaphoreci.com/smallrye/smallrye-async-api"]
-image:https://sonarcloud.io/api/project_badges/measure?project=smallrye_smallrye-async-api&metric=alert_status["Quality Gate Status", link="https://sonarcloud.io/dashboard?id=smallrye_smallrye-async-api"]
+:ci: https://github.com/smallrye/smallrye-config/actions?query=workflow%3A%22SmallRye+Build%22
+:sonar: https://sonarcloud.io/dashboard?id=smallrye_smallrye-config
+
+image:https://github.com/smallrye/smallrye-async-api/workflows/SmallRye%20Build/badge.svg?branch=master[link={ci}]
+image:https://sonarcloud.io/api/project_badges/measure?project=smallrye_smallrye-async-api&metric=alert_status["Quality Gate Status", link={sonar}]
 image:https://img.shields.io/github/license/smallrye/smallrye-async-api.svg["License", link="http://www.apache.org/licenses/LICENSE-2.0"]
 
 = SmallRye AsyncAPI
@@ -8,11 +11,11 @@ SmallRye AsyncAPI is a proof of concept specification and implementation of Micr
 
 == Instructions
 
-Compile and install this project:
+Compile and test the project:
 
 [source,bash]
 ----
-mvn clean install
+mvn verify
 ----
 
 === Project structure
@@ -21,6 +24,10 @@ mvn clean install
 * link:spec/tck[] - Specification TCK tests.
 * link:implementation[] - Implementation of the specification.
 * link:tck[] - Test suite to run the spec TCK against the implementation.
+
+=== Contributing
+
+Please refer to our Wiki for the https://github.com/smallrye/smallrye-parent/wiki[Contribution Guidelines].
 
 === Links
 
