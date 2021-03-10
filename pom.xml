@@ -7,7 +7,7 @@
     <parent>
         <groupId>io.smallrye</groupId>
         <artifactId>smallrye-parent</artifactId>
-        <version>25</version>
+        <version>26</version>
     </parent>
 
     <artifactId>smallrye-async-api-parent</artifactId>
@@ -21,7 +21,7 @@
         <version.buildhelper.plugin>3.0.0</version.buildhelper.plugin>
         <version.jar.plugin>3.2.0</version.jar.plugin>
 
-        <version.com.fasterxml.jackson>2.12.1</version.com.fasterxml.jackson>
+        <version.com.fasterxml.jackson>2.12.2</version.com.fasterxml.jackson>
         <version.com.fasterxml.jackson.databind>2.10.1</version.com.fasterxml.jackson.databind>
         <version.com.fasterxml.jackson.dataformat>2.12.2</version.com.fasterxml.jackson.dataformat>
         <version.commons-beanutils>1.9.4</version.commons-beanutils>
@@ -36,7 +36,7 @@
         <version.org.jboss.resteasy.core-spi>4.6.0.Final</version.org.jboss.resteasy.core-spi>
         
         <!-- Apicurio Data Models -->
-        <version.apicurio-data-models>1.1.8</version.apicurio-data-models>
+        <version.apicurio-data-models>1.1.9</version.apicurio-data-models>
 
         <sonar.coverage.jacoco.xmlReportPaths>${project.basedir}/tck/target/site/jacoco-aggregate/jacoco.xml,${project.basedir}/../tck/target/site/jacoco-aggregate/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
     </properties>
