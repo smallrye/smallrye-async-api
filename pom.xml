@@ -23,7 +23,7 @@
 
         <version.com.fasterxml.jackson>2.13.2</version.com.fasterxml.jackson>
         <version.com.fasterxml.jackson.databind>2.13.2</version.com.fasterxml.jackson.databind>
-        <version.com.fasterxml.jackson.dataformat>2.13.2</version.com.fasterxml.jackson.dataformat>
+        <version.com.fasterxml.jackson.dataformat>2.13.3</version.com.fasterxml.jackson.dataformat>
         <version.commons-beanutils>1.9.4</version.commons-beanutils>
         <version.commons-logging>1.2</version.commons-logging>
         <version.eclipse.microprofile.config>2.0.1</version.eclipse.microprofile.config>
