@@ -21,7 +21,7 @@
         <version.buildhelper.plugin>3.0.0</version.buildhelper.plugin>
         <version.jar.plugin>3.2.2</version.jar.plugin>
 
-        <version.com.fasterxml.jackson>2.13.2</version.com.fasterxml.jackson>
+        <version.com.fasterxml.jackson>2.13.3</version.com.fasterxml.jackson>
         <version.com.fasterxml.jackson.databind>2.13.2</version.com.fasterxml.jackson.databind>
         <version.com.fasterxml.jackson.dataformat>2.13.2</version.com.fasterxml.jackson.dataformat>
         <version.commons-beanutils>1.9.4</version.commons-beanutils>
