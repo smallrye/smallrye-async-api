@@ -14,7 +14,7 @@
     <properties>
         <arquillian.version>1.6.0.Final</arquillian.version>
         <restclient.version>2.0</restclient.version>
-        <rest-assured.version>4.5.1</rest-assured.version>
+        <rest-assured.version>5.1.0</rest-assured.version>
         <servlet.version>4.0.4</servlet.version>
         <httpclient.version>4.5.13</httpclient.version>
         <restclient.version>1.1</restclient.version>
