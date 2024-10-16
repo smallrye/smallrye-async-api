@@ -25,7 +25,7 @@ import java.lang.annotation.Target;
 /**
  * Use this annotation along with @TckTestRunner to indicate the specific Tck that is
  * under test.
- * 
+ *
  * @author eric.wittmann@gmail.com
  */
 @Retention(RetentionPolicy.RUNTIME)

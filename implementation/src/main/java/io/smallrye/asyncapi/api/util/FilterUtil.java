@@ -32,7 +32,7 @@ public class FilterUtil {
 
     /**
      * Apply the given filter to the given model.
-     * 
+     *
      * @param filter
      * @param document
      */

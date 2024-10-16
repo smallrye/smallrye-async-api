@@ -20,7 +20,7 @@ import java.util.Set;
 
 /**
  * Accessor to AsyncAPI configuration options.
- * 
+ *
  * mp.asyncapi.model.reader : Configuration property to specify the fully qualified name of the AAIModelReader implementation.
  * mp.asyncapi.filter : Configuration property to specify the fully qualified name of the AAIFilter implementation.
  * mp.asyncapi.scan.disable : Configuration property to disable annotation scanning. Default value is false.

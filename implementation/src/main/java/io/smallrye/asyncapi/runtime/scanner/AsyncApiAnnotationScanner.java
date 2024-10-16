@@ -25,7 +25,7 @@ import io.smallrye.asyncapi.api.AsyncApiConfig;
 /**
  * Scans a deployment (using the archive and jandex annotation index) for relevant annotations. These
  * annotations, if found, are used to generate a valid AsyncAPI model.
- * 
+ *
  * @author eric.wittmann@gmail.com
  */
 public class AsyncApiAnnotationScanner {
@@ -39,7 +39,7 @@ public class AsyncApiAnnotationScanner {
 
     /**
      * Constructor.
-     * 
+     *
      * @param config AsyncApiConfig instance
      * @param index IndexView of deployment
      */
@@ -51,7 +51,7 @@ public class AsyncApiAnnotationScanner {
     /**
      * Scan the deployment for relevant annotations. Returns an AsyncAPI data model that was
      * built from those found annotations.
-     * 
+     *
      * @return Document generated from scanning annotations
      */
     public Document scan() {

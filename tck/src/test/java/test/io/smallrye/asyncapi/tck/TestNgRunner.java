@@ -32,7 +32,7 @@ public class TestNgRunner extends BlockJUnit4ClassRunner {
 
     /**
      * Constructor.
-     * 
+     *
      * @param klass
      * @throws InitializationError
      */

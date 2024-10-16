@@ -68,7 +68,7 @@ public class TckTestRunner extends ParentRunner<ProxiedTckTest> {
 
     /**
      * Constructor.
-     * 
+     *
      * @param testClass
      * @throws InitializationError
      */
@@ -134,7 +134,7 @@ public class TckTestRunner extends ParentRunner<ProxiedTckTest> {
 
     /**
      * Figures out what TCK test is being run.
-     * 
+     *
      * @throws InitializationError
      */
     @SuppressWarnings("unchecked")

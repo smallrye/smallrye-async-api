@@ -24,7 +24,7 @@ import io.smallrye.asyncapi.spec.AAIModelReader;
 
 /**
  * A model reader implementation used for TCK testing.
- * 
+ *
  * @author eric.wittmann@gmail.com
  */
 public class ModelReaderImpl implements AAIModelReader {

@@ -18,7 +18,7 @@ package io.smallrye.asyncapi.spec;
 
 /**
  * Configurable properties in MicroProfile AsyncAPI
- * 
+ *
  * @author eric.wittmann@gmail.com
  */
 public final class AAIConfig {
