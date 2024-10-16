@@ -26,7 +26,7 @@ import io.smallrye.asyncapi.spec.AAIConfig;
 /**
  * Implementation of the {@link AsyncApiConfig} interface that gets config information from a
  * standard MP Config object.
- * 
+ *
  * @author eric.wittmann@gmail.com
  */
 public class AsyncApiConfigImpl implements AsyncApiConfig {
@@ -48,7 +48,7 @@ public class AsyncApiConfigImpl implements AsyncApiConfig {
 
     /**
      * Constructor.
-     * 
+     *
      * @param config MicroProfile Config instance
      */
     public AsyncApiConfigImpl(Config config) {

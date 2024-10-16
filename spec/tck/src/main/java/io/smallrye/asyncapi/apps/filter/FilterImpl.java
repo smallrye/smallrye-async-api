@@ -26,7 +26,7 @@ import io.smallrye.asyncapi.spec.AAIFilter;
 
 /**
  * A filter implementation used in the filter app TCK test.
- * 
+ *
  * @author eric.wittmann@gmail.com
  */
 public class FilterImpl extends CombinedVisitorAdapter implements AAIFilter {

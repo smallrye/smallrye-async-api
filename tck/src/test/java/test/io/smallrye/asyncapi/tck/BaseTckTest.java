@@ -39,7 +39,7 @@ import io.smallrye.asyncapi.api.AsyncApiDocument;
 
 /**
  * Base class for all Tck tests.
- * 
+ *
  * @author eric.wittmann@gmail.com
  */
 @SuppressWarnings("restriction")
@@ -102,7 +102,7 @@ public abstract class BaseTckTest<T extends Arquillian> {
 
     /**
      * Calls the endpoint.
-     * 
+     *
      * @param format
      */
     protected ValidatableResponse doCallEndpoint(String format) {

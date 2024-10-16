@@ -27,7 +27,7 @@ public class IOUtil {
 
     /**
      * Converts the given input stream to a string. Assumes UTF8 as the encoding.
-     * 
+     *
      * @param content
      */
     public static String toString(InputStream content) {

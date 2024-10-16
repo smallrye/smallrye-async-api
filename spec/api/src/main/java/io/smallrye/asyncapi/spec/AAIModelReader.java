@@ -20,7 +20,7 @@ import io.apicurio.datamodels.core.models.Document;
 
 /**
  * This interface allows application developers to programmatically contribute an AsyncAPI model tree.
- * 
+ *
  * @author eric.wittmann@gmail.com
  */
 public interface AAIModelReader {
@@ -29,7 +29,7 @@ public interface AAIModelReader {
      * This method is called by the vendor's AsyncAPI processing framework. It can be a fully complete and
      * valid AsyncAPI model tree, or a partial base model tree that will be augmented by either annotations or
      * pre-generated AsyncAPI documents.
-     * 
+     *
      * @return the AsyncAPI model to be used by the vendor
      */
     Document buildModel();

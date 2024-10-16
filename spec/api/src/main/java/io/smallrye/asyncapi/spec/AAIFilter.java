@@ -23,7 +23,7 @@ import io.apicurio.datamodels.core.models.Document;
  * after all document generation phases are complete (model reader, static file, annotation scanning)
  * and is typically used to suppress parts of the document that should not be included. Usually this
  * is either a result of security concerns or anachronistic annotation scanning.
- * 
+ *
  * @author eric.wittmann@gmail.com
  */
 public interface AAIFilter {
@@ -31,7 +31,7 @@ public interface AAIFilter {
     /**
      * Allows filtering of the entire document. This will be called after all other phases are complete and
      * combined (model reader, static file, annotation scanning).
-     * 
+     *
      * @param document
      */
     public void filterDocument(Document document);
